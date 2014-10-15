@@ -44,3 +44,10 @@ merge changes on the latest version of the remote that you could possibly have
 had access to. The ability to have this copy of the last known state without it
 merged into what you're working on allows for a lot of flexibility.
 
+> How would you collaborate without using Git or GitHub? What would be easier,
+> and what would be harder?
+
+Sending files back and forth and manually adding changes to them, with,
+perhaps, a master copy stored somewhere. It would be easier to deal with the
+transfer of files back and forth between people, but the process of merging
+changes into a cohesive whole would be much more difficult.

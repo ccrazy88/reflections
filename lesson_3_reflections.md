@@ -34,3 +34,13 @@ the two), a fork is usually done if the originator of the repository wants to
 maintain their version of the code and you want to modify it in some way and/or
 take it in a different direction, while maintaining a reference to the original
 source.
+
+> What is the benefit of having a copy of the last known state of the remote
+> stored locally?
+
+This makes merging your new code, presumably stored locally in your repository
+on a new branch, into the origin/master branch, less painful by allowing you to
+merge changes on the latest version of the remote that you could possibly have
+had access to. The ability to have this copy of the last known state without it
+merged into what you're working on allows for a lot of flexibility.
+

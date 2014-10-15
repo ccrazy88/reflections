@@ -51,3 +51,12 @@ Sending files back and forth and manually adding changes to them, with,
 perhaps, a master copy stored somewhere. It would be easier to deal with the
 transfer of files back and forth between people, but the process of merging
 changes into a cohesive whole would be much more difficult.
+
+> When would you want to make changes in a separate branch rather than directly
+> in master? What benefits does each approach have?
+
+Whenever you're adding a feature, it makes sense to make changes in a separate
+branch. Also, whenever you're doing something that could break the master
+branch, which should be working at any given point in time, it makes sense.
+It's more complicated to deal with multiple branches in the creation and
+maintenance process, but undoing potentially dangerous changes is easier.
